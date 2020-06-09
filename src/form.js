@@ -70,17 +70,17 @@ createCategory({name,email,phone,number,booking,type})
               </p>
               <p>
                 <label>
-                 <input type="email" name="email" value={email} onChange={handleChange('email')} placeholder="Correo electronico" required />
+                 <input type="email" name="email" value={email} onChange={handleChange('email')} placeholder="Correo electrónico" required />
                 </label>
               </p>
               <p>
                 <label>
-                    <input type="number" value={phone} onChange={handleChange('phone')} placeholder="Telefono:" required />
+                    <input type="number" value={phone} onChange={handleChange('phone')} placeholder="Teléfono:" required />
                 </label>
               </p>
               <p>
                 <label>
-                    <input type="number" value={number} onChange={handleChange('number')} placeholder="Numero de invitados"  required />
+                    <input type="number" value={number} onChange={handleChange('number')} placeholder="Número de invitados"  required />
                 </label>
               </p>
               <p>

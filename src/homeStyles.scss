@@ -1,6 +1,6 @@
 
 ///Fonts
-$titles:'Artifika', serif;
+$titles:'Lexend Tera', sans-serif;
 $open:'Quicksand', sans-serif;
 
 //colors
@@ -64,13 +64,12 @@ z-index: 1;
    
       //  color: #fff;
         font-size: 64px;
-        font-family:'Artifika', serif;
-        font-weight: 200;
+        font-family:'Lexend Tera', sans-serif;
         text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.2);
         display: flex;
         justify-content: center;
         @media (max-width: 769px){ /* es solo para que se vea en modo movil usuarios*/
-            font-size:45px
+            font-size:32px
            }
 }
 
@@ -101,14 +100,20 @@ main .capital-letter {
 
 .history{
     color:$grey3;
-    font-size: 24pt;
+    font-size: 35px;
     font-family:$open;
+    @media (max-width: 769px){ /* es solo para que se vea en modo movil usuarios*/
+        font-size:24px
+       }
 }
+
+
 
 .big-salon{
     display: flex;
     align-items: center;
     justify-content: center;
+    
     
  @media (max-width: 769px){ /* es solo para que se vea en modo movil usuarios*/
 
@@ -131,8 +136,10 @@ main .capital-letter {
     margin-bottom: 40px;
     display: flex;
     flex-wrap: wrap;
-
- @media (max-width: 769px){ /* es solo para que se vea en modo movil usuarios*/
+    font-family: $open;
+    font-size: 25px;
+ 
+    @media (max-width: 769px){ /* es solo para que se vea en modo movil usuarios*/
 
     justify-content: center;
      flex-direction: column;

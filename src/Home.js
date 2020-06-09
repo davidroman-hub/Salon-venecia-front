@@ -1,6 +1,5 @@
 
-import React,{ Fragment, useState} from 'react';
-import Layout from './components/Layout'
+import React,{ Fragment} from 'react';
 import {Link} from 'react-router-dom'
 import Logo from './pages/images/Logo.png'
 import './homeStyles.scss'
@@ -79,7 +78,7 @@ const homeBody = () => (
                       <br/>
                       <container className="header-title">
                             <SplitText initialPose="exit" pose="enter" charPoses={charPoses}>
-                                Salón Venecia
+                               BIENVENIDOS
                             </SplitText>
                        </container>
                         {/* <h1 className="title text-center">
@@ -142,7 +141,7 @@ const homeBody = () => (
               <img src='https://res.cloudinary.com/dm8dxwvix/image/upload/v1590704587/venecia/boda/Salon_Venecia_2018-11-10_93_m_jdqirb.jpg'  alt='boda'/>
                       <h6 className="mb-1 mt-2">BODAS</h6>
                       <div className="figure2"/>
-                       <p className="description-t mb-2">Una boda perfecta se celebra en Salón Venecia, 
+                       <p className="description-t mb-2" style={{fontSize:'16px'}}>Una boda perfecta se celebra en Salón Venecia, 
                                                         en donde nos dedicaremos a que tu y tus invitados disfruten de una confortable y elegante noche cuidando cada detalle para hacerlos sentir especiales; 
                                                         creando una noche inolvidable.</p>
                        <Link to='/bodas' className="">Ver Más</Link>
@@ -157,7 +156,7 @@ const homeBody = () => (
               <br/>
                       <h6 className="mb-1 mt-2">XV AÑOS</h6>
                       <div className="figure2"/>
-                       <p className="description-t mb-4">No es un cumpleaños más, es un sueño hecho realidad, donde la princesa eres tú.
+                       <p className="description-t mb-4" style={{fontSize:'16px'}}>No es un cumpleaños más, es un sueño hecho realidad, donde la princesa eres tú.
                         </p>
                       
                        <Link to='/bodas' className="">Ver Más</Link>
@@ -169,7 +168,7 @@ const homeBody = () => (
           <div className='container-card'>
            <div className="card">
               <img src='https://res.cloudinary.com/dm8dxwvix/image/upload/v1591372133/venecia/empresarial/20190803_181820_xucvcx.jpg'  alt='empresarial'/>
-                      <h6 className="mb-1 mt-2">EMPRESARIAL</h6>
+                      <h6 className="mb-1 mt-2"style={{fontSize:'16px'}}>EMPRESARIAL</h6>
                       <br/>
                       <div className="figure2"/>
                        <p className="description-t mb-2">Desde una fiesta informal hasta una cena de fin de año, te ofrecemos una gran variedad de opciones para sobrepasar tus expectativas.</p>
@@ -179,7 +178,7 @@ const homeBody = () => (
           </div>
     </div>
 
-    <h2 className="title text-center"> JARDIN </h2>
+    <h2 className="title text-center"> JARDÍN </h2>
     <JardinCarousel/>
 
     <h3 className="title text-center"> UBICACIÓN </h3>
