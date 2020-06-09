@@ -1,0 +1,50 @@
+
+.ContactMe{
+    //max-width: 420px;// tamaño
+  //  margin: 0 auto;//centrificacion
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+ .contactMe{
+    text-align: center;
+    font-weight: 500;
+    }
+}
+
+input[type=text],input[type=email],input[type=number],input[type=date],select,textarea{
+    width: 100%;// largo del input
+     padding:12px ;//altura entre cada una de las secciones
+     border: 1px solid #ccc;// el borde del input
+     border-radius: 4px;//circunferencia del input
+     box-sizing: border-box;
+     margin-top: 6px;//un poco de altura
+     margin-bottom: 16px;
+     resize: vertical;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.form-button  {
+    background-color:black;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: 0.2s linear;
+}
+
+.form-button:hover{
+    //transform: scale(1.1);
+    //transition: transform;
+    background-color: #B3B526;
+}
+
+.container{
+    border-radius: 5px;
+     //background-color: #f2f2f2;
+     padding: 20px;
+}

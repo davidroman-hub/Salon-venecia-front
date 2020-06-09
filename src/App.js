@@ -1,26 +1,39 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React,{ Fragment} from 'react';
+import Layout from './components/Layout'
+import {BrowserRouter, Route, Switch} from 'react-router-dom'
+import AdminRoute from './Admin/adminRoute'
+import Quince from './pages/15anos'
+import Boda from './pages/Boda'
+import Empresarial from './pages/empresarial'
+import Jardin from './pages/Jardin'
+// import Pages
 
-function App() {
+
+import Home from './Home'
+import Signin from '../src/components/Signin'
+import Dashboard from './Admin/Dashboard'
+import DatesList from './Admin/dates.List'
+import ManageDate from './Admin/datesRemove'
+
+
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <BrowserRouter>
+      <Fragment>
+        <AdminRoute exact path="/admin/dashboard" component={Dashboard}/>
+        <AdminRoute exact path="/admin/dates-list" component={DatesList}/>
+        <AdminRoute exact path="/admin/dates-remove" component={ManageDate}/>
+        <Route exact path="/admin" component={Signin}/> 
+        <Route exact path="/home" component={Home}/> 
+        <Route exact path="/" component={Home}/> 
+        <Route exact path="/quince" component={Quince}/> 
+        <Route exact path="/bodas" component={Boda}/> 
+        <Route exact path="/empresarial" component={Empresarial}/> 
+        <Route exact path="/jardin" component={Jardin}/> 
+      </Fragment>
+    </BrowserRouter>
+   
+  )
 }
 
 export default App;

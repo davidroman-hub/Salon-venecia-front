@@ -1,0 +1,229 @@
+
+///Fonts
+$titles:'Artifika', serif;
+$open:'Quicksand', sans-serif;
+
+//colors
+
+$red:#800000;
+$grey: rgba(255,255,255,.5);
+$grey3:#606060;
+
+*{
+   // font-family: Montserrat;
+    color:#000;
+    font-weight: 400;
+    line-height: 1;
+    letter-spacing: 0px;
+    font-style: $open;
+}
+
+@import "~react-image-gallery/styles/scss/image-gallery.scss";
+
+
+.header-content{
+    width: 100%;
+    height: 100vh;
+    
+    //color: #fff;
+    background:black;
+    background-image: url('https://res.cloudinary.com/dm8dxwvix/image/upload/v1590704580/venecia/boda/Salon_Venecia_2018-11-10_66_m_v6tujy.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; 
+    filter: grayscale(15%);
+    //background-attachment: fixed; // we can move while the photo its static
+    box-shadow: inset 0 0 50px 70px rgba(0,0,0,.8);// shadow inside around the page
+    @media (max-width: 769px){ /* es solo para que se vea en modo movil usuarios*/
+    box-shadow: none;
+   // box-shadow: inset 0 0 25px 35px rgba(0,0,0,.8);
+  }
+
+    
+    
+
+///position static photo///
+
+position: relative;
+top:0;// change for the navbar
+left: 0;
+
+//flex box
+
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+text-align: center;
+
+z-index: 1;
+
+}
+
+.header-title{
+   
+      //  color: #fff;
+        font-size: 64px;
+        font-family:'Artifika', serif;
+        font-weight: 200;
+        text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.2);
+        display: flex;
+        justify-content: center;
+        @media (max-width: 769px){ /* es solo para que se vea en modo movil usuarios*/
+            font-size:45px
+           }
+}
+
+.title{
+    font-family:$titles;
+    font-size:60px;
+    @media (max-width: 769px){ /* es solo para que se vea en modo movil usuarios*/
+       font-size:45px
+      }
+}
+
+
+.Carousel-content{
+  width: 300px;
+    // display: flex;
+    // align-items: center;
+    // justify-content: center;
+    
+}
+main .capital-letter {
+    font-size: 55px;
+    font-family: $titles;
+    margin-right: 5px;
+    line-height: 15px;
+    color:$red;
+    }
+        
+
+.history{
+    color:$grey3;
+    font-size: 24pt;
+    font-family:$open;
+}
+
+.big-salon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+ @media (max-width: 769px){ /* es solo para que se vea en modo movil usuarios*/
+
+    justify-content: center;
+     flex-direction: column;
+     align-items: center;
+    // justify-content: center;
+    // margin-left: 50px;
+     margin-bottom: 0px;
+    
+    } 
+}
+
+
+.container-card{
+    //width: 100%;
+    max-width: 1200px;
+    height: 530px;
+    display: flex;
+    margin-bottom: 40px;
+    display: flex;
+    flex-wrap: wrap;
+
+ @media (max-width: 769px){ /* es solo para que se vea en modo movil usuarios*/
+
+    justify-content: center;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+    // margin-left: 50px;
+     margin-bottom: 0px;
+    
+    } 
+}
+
+.container-card .card{
+    width: 300px;
+    height: 500px;
+   // border-radius: 8px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    margin: 20px;
+    text-align: center;
+    transition: all 0.25s;;
+    //-webkit-filter: grayscale(100%) ;
+	//filter: grayscale(100%) ;
+	-webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+   // border:none;
+
+}
+
+.container-card .card:hover{
+    -webkit-filter: grayscale(0) ;
+	filter: grayscale(0) ;
+    transform: translateY(-15px);
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+}
+
+.container-card .card img{
+    width: 300px;
+    height: 280px;
+   // border-radius: 12px;
+}
+
+
+.container-card .card h4{
+    font-weight: 600;
+}
+
+.container-card .card p{
+    padding: 0 1rem;
+    font-size: 13px;
+    font-weight: 300;
+}
+
+.container-card .card a {
+    font-weight: 500;
+    text-decoration: none;
+    color: #3498db;
+}
+
+
+
+
+.order-list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+ @media (max-width: 769px){ /* es solo para que se vea en modo movil usuarios*/
+
+    justify-content: center;
+    // flex-direction: column;
+     align-items: center;
+    // justify-content: center;
+    // margin-left: 50px;
+     margin-bottom: 0px;
+    
+    } 
+}
+
+
+.map {
+    color:red;
+    font-size:25px
+}
+
+.Map-ps{
+display: flex;
+justify-content:center;
+height: 50vh;
+ width: 100%;
+ @media (max-width: 769px){ /* es solo para que se vea en modo movil usuarios*/
+  //  width: 400px
+    }  
+}
