@@ -27,10 +27,10 @@ const Dashboard = () => {
         <div className='card mb-5'>
                 <h3 className='card-header'>Enlaces de administrador</h3>
                 <li className='list-group-item'>
-                    <Link to='/admin/dates-list'>Revisar Citas </Link>
+                    <Link to='/admin/dates-list'  style={{color: 'blue'}}>Revisar Citas </Link>
                 </li>
                 <li className='list-group-item'>
-                    <Link to='/admin/dates-remove'>Administrar citas (Eliminar) </Link>
+                    <Link to='/admin/dates-remove'  style={{color: 'blue'}}>Administrar citas (Eliminar) </Link>
                 </li>
         </div>
       </div>  

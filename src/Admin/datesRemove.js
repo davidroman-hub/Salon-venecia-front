@@ -44,8 +44,9 @@ const ManageDates = () => {
         <Header>
              <div className="row">
             <div className="col-12">
-            <h1>Manejo de productos</h1>
-            <h3>Total de Productos:{dates.length}</h3>
+            <h1>Manejo de citas</h1>
+            <h3>Total de Citas:{dates.length}</h3>
+            
             <hr/>
             <ul className='list-group'>
                 {dates.map((p,i) => (
@@ -54,7 +55,7 @@ const ManageDates = () => {
                         {/* <Link to={`product/update/${p._id}`} >
                             <span className='badge badge-warning badge-pill'>Actualizar</span>
                         </Link> */}
-                        <span onClick={()=> destroy(p._id)} className='badge badge-danger badge-pill'>Eliminar</span>
+                        <span onClick={()=> destroy(p._id)} className='badge badge-danger badge-pill' style={{cursor: 'pointer'}}>Eliminar</span>
                     </li>
                 ))}
             </ul>

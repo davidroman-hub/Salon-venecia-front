@@ -2,6 +2,7 @@ import React,{Fragment, useState, useEffect} from 'react';
 import Header from '../components/header'
 import {getCookie} from '../components/helpers'
 import {getDates} from '../pages/apiCore'
+import {Link} from 'react-router-dom'
 
 
 const DatesList = () => {
@@ -43,7 +44,7 @@ const DatesList = () => {
     const showDatesList = () => {
         return (
             <div className='order-list'>
-                    
+                     
                 {dates.map((d,i) => {
                     return (
                         <div  key={i} className="card mr-2 mt-2">
@@ -69,7 +70,8 @@ const DatesList = () => {
 
     return (
         <Header>
-              <h1>hola soy Dates List</h1>
+       
+             <br/>
               {/* {JSON.stringify(dates)} */}
               {showAppointmentsLength()}
               {showDatesList()}
