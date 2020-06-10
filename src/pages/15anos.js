@@ -11,7 +11,7 @@ const Quince = () => {
         
         return (
             <Fragment>
-                 <h2 className="title text-center"> XV AÑOS </h2>
+                 <h2 className="title2 text-center"> XV AÑOS </h2>
                  <p className="bodaDesc text-center">
                     No es un cumpleaños más, es un sueño hecho realidad, <br/>
                     donde la princesa eres tú.

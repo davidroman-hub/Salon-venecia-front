@@ -81,6 +81,15 @@ z-index: 1;
       }
 }
 
+.title2{
+    font-family:$titles;
+    font-size:60px;
+    margin-top: 160px;
+    @media (max-width: 769px){ /* es solo para que se vea en modo movil usuarios*/
+       font-size:45px
+      }
+}
+
 
 .Carousel-content{
   width: 300px;

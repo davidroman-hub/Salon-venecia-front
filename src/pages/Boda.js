@@ -13,7 +13,7 @@ const Boda = () => {
         return (
             <Fragment>
              
-                <h2 className="title text-center"> BODA </h2>
+                <h2 className="title2 text-center"> BODA </h2>
                 <p className="bodaDesc text-center">
                 Una boda perfecta se celebra en Salón Venecia, <br/>
                 en donde nos dedicaremos a que tu y tus invitados<br/>

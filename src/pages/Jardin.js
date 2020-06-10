@@ -14,7 +14,7 @@ const Jardin = () => {
         return (
             <Fragment>
             
-                <h2 className="title text-center"> JARDÍN </h2>
+                <h2 className="title2 text-center"> JARDÍN </h2>
                 <p className="bodaDesc text-center">
                     El jardín de Venecia es el lugar perfecto<br/> 
                     para realizar tu evento al aire libre, <br/>

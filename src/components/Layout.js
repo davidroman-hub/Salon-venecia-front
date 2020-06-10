@@ -28,7 +28,7 @@ import {
     }
     return (
         <div>
-             <Navbar light expand="md" style={{backgroundColor: "#fff"}} className=''>
+             <Navbar light expand="md" style={{backgroundColor: "#f2f2f2", opacity:'0.9',zIndex:'300'}} className='fixed-top'>
                 <Link href="/">
                 <img alt='logo' width='60px' height='70px' src={Logo}/>
                 </Link>

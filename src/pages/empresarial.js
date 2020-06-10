@@ -11,8 +11,16 @@ const Empresarial = () => {
         return (
             <Fragment>
             
-                <h2 className="title text-center"> EMPRESARIAL </h2>
+                <h2 className="title2 text-center"> EMPRESARIAL </h2>
                 {/* <div className='titles-descGallery text-center'> GALERIA</div> */}
+                <p className="bodaDesc text-center">
+                Desde una fiesta informal hasta una cena de fin de año,<br/>
+                te ofrecemos una gran variedad de opciones <br/>
+                para sobrepasar tus expectativas.
+                </p>
+                
+               
+               
                 <br/>
                 <br/>
                 <ImageGallery items={empresarial}/>
