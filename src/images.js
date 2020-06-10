@@ -4,18 +4,18 @@ export const images2 = [
       thumbnail: 'https://res.cloudinary.com/dm8dxwvix/image/upload/v1590704680/venecia/20190325_224100_ysw5rh.png',
     },
     {
-      original: 'https://res.cloudinary.com/dm8dxwvix/image/upload/v1590704671/venecia/IMG-20190622-WA0017_r5m6od.jpg',
-      thumbnail: 'https://res.cloudinary.com/dm8dxwvix/image/upload/v1590704671/venecia/IMG-20190622-WA0017_r5m6od.jpg',
+      original: 'https://res.cloudinary.com/dm8dxwvix/image/upload/v1590704587/venecia/boda/Salon_Venecia_2018-11-10_93_m_jdqirb.jpg',
+      thumbnail: 'https://res.cloudinary.com/dm8dxwvix/image/upload/v1590704587/venecia/boda/Salon_Venecia_2018-11-10_93_m_jdqirb.jpg',
     },
     {
-        original: 'https://res.cloudinary.com/dm8dxwvix/image/upload/v1590704683/venecia/Jardin_de_Venecia_1_-_2015-07-27_Copy_by6vzw.jpg',
-        thumbnail: 'https://res.cloudinary.com/dm8dxwvix/image/upload/v1590704683/venecia/Jardin_de_Venecia_1_-_2015-07-27_Copy_by6vzw.jpg',
+        original: 'https://res.cloudinary.com/dm8dxwvix/image/upload/v1590704498/venecia/15%20anos/IMG-20180605-WA0026_onm7xz.jpg',
+        thumbnail: 'https://res.cloudinary.com/dm8dxwvix/image/upload/v1590704498/venecia/15%20anos/IMG-20180605-WA0026_onm7xz.jpg',
       },
    
-      // {
-      //   original: '',
-      //   thumbnail: '',
-      // },
+      {
+        original: 'https://res.cloudinary.com/dm8dxwvix/image/upload/v1591372115/venecia/empresarial/IMG-20181216-WA0030_uh7sns.jpg',
+        thumbnail: 'https://res.cloudinary.com/dm8dxwvix/image/upload/v1591372115/venecia/empresarial/IMG-20181216-WA0030_uh7sns.jpg',
+      },
       // {
       //   original: '',
       //   thumbnail: '',

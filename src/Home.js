@@ -104,7 +104,8 @@ const homeBody = () => (
                     </br>
                     <br/>
                     <hr/>
-            <section className="Carousel-cont">
+                    <JardinCarousel/>
+            {/* <section className="Carousel-cont">
             <div className="Carousel text-center" id="carouselExampleControls" class="carousel slide" data-ride="carousel">
                 <div class="carousel-inner">
                 <div class="carousel-item text-center active">
@@ -127,7 +128,7 @@ const homeBody = () => (
                 <span class="sr-only">Next</span>
                 </a>
             </div>
-            </section>
+            </section> */}
             <br/>
   
         <h2 className="title text-center">
@@ -179,7 +180,17 @@ const homeBody = () => (
     </div>
 
     <h2 className="title text-center"> JARDÍN </h2>
-    <JardinCarousel/>
+    <div className='container-cardJ text-center'>
+           <div className="card">
+              <img src='https://res.cloudinary.com/dm8dxwvix/image/upload/v1590704671/venecia/IMG-20190622-WA0017_r5m6od.jpg'  alt='empresarial'/>
+                      <h6 className="mb-1 mt-2"style={{fontSize:'16px'}}>JARDÍN</h6>
+                      <br/>
+                      <div className="figure2"/>
+                       <p className="description-t mb-2">El jardín de Venecia es el lugar perfecto para realizar tu evento al aire libre, rodeado de tranquilidad y armonía.</p>
+                       <Link to='/jardin' className="">Ver Más</Link>
+                    </div>
+                </div>
+        
 
     <h3 className="title text-center"> UBICACIÓN </h3>
     <br/>
