@@ -38,28 +38,32 @@ import {
 
             {!isAuth () && (     
               <Fragment>            
-                    <NavItem style={{cursor:'pointer'}}>
-                      <Link to='/'>
-                        <NavLink>HOME</NavLink>
-                      </Link>
-                    </NavItem>
-             
-                    
-                      
-                         <NavItem  style={{cursor:'pointer'}}>
+                        <NavItem style={{cursor:'pointer'}}>
+                          <Link to='/'>
+                            <NavLink>HOME</NavLink>
+                          </Link>
+                        </NavItem>
+                        <NavItem  style={{cursor:'pointer'}}>
+                            <Link to="/bodas">
+                              <NavLink>
+                              BODAS
+                              </NavLink>
+                            </Link>
+                        </NavItem>  
+                       <NavItem  style={{cursor:'pointer'}}>
                          <Link to="/quince">
                            <NavLink>
                            XV AÑOS
                            </NavLink>
                          </Link>
-                     </NavItem> 
+                     </NavItem>
                      <NavItem  style={{cursor:'pointer'}}>
-                        <Link to="/bodas">
+                        <Link to="/jardin">
                           <NavLink>
-                           BODAS
+                           JARDIN
                           </NavLink>
                         </Link>
-                    </NavItem>
+                    </NavItem> 
                     <NavItem  style={{cursor:'pointer'}}>
                         <Link to="/empresarial">
                           <NavLink>
@@ -67,13 +71,7 @@ import {
                           </NavLink>
                         </Link>
                     </NavItem>
-                    <NavItem  style={{cursor:'pointer'}}>
-                        <Link to="/jardin">
-                          <NavLink>
-                           JARDIN
-                          </NavLink>
-                        </Link>
-                    </NavItem>
+                 
                     </Fragment>
             )}
                    

@@ -1,0 +1,57 @@
+
+.bodaForm{
+    background-color: #847357;
+    width: 50%;
+    margin-left:25%;
+    border-radius:10px;
+    opacity: 0.8;
+    @media(max-width: 769px){
+        width: 100%;
+       margin-left:0%;
+    }
+}
+
+
+.xvForm{
+    background-color: #fd8690;
+   //background-color:#e5b2bb; 
+   width: 50%;
+    margin-left:25%;
+    border-radius:10px;
+    opacity: 0.8;
+    @media(max-width: 769px){
+        width: 100%;
+       margin-left:0%;
+    }
+}
+
+
+
+.jardinForm{
+    background-color: #c9eec9;
+    //background-color: #c0ca76;
+   width: 50%;
+    margin-left:25%;
+    border-radius:10px;
+    opacity: 0.8;
+    @media(max-width: 769px){
+        width: 100%;
+       margin-left:0%;
+    }
+}
+
+
+.empresarialForm{
+    background-color: #4d6876;
+    //background-color: #c0ca76;
+    opacity: 0.8;
+    //background-color: rgb(0, 0, 0);
+   width: 50%;
+    margin-left:25%;
+    border-radius:10px;
+    @media(max-width: 769px){
+        width: 100%;
+       margin-left:0%;
+    }
+}
+//#c9eec

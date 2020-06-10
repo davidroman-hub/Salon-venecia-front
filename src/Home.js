@@ -159,7 +159,7 @@ const homeBody = () => (
                        <p className="description-t mb-4" style={{fontSize:'16px'}}>No es un cumpleaños más, es un sueño hecho realidad, donde la princesa eres tú.
                         </p>
                       
-                       <Link to='/bodas' className="">Ver Más</Link>
+                       <Link to='/quince' className="">Ver Más</Link>
                     </div>
                 </div>
           
@@ -172,7 +172,7 @@ const homeBody = () => (
                       <br/>
                       <div className="figure2"/>
                        <p className="description-t mb-2">Desde una fiesta informal hasta una cena de fin de año, te ofrecemos una gran variedad de opciones para sobrepasar tus expectativas.</p>
-                       <Link to='/bodas' className="">Ver Más</Link>
+                       <Link to='/empresarial' className="">Ver Más</Link>
                     </div>
                 </div>
           </div>

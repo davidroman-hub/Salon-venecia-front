@@ -234,3 +234,16 @@ height: 50vh;
   //  width: 400px
     }  
 }
+
+/// section boda
+
+
+.bodaDesc{
+    color:$grey3;
+    font-size: 35px;
+    font-family:$open;
+    @media (max-width: 769px){ /* es solo para que se vea en modo movil usuarios*/
+        font-size:24px;
+        margin-top: 70px;
+       }
+}

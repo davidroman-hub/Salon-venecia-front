@@ -2,6 +2,8 @@ import React,{Fragment} from 'react';
 import Header from '../components/header'
 import {empresarial} from '../images'
 import ImageGallery from 'react-image-gallery'
+import Form from '../form'
+
 
 const Empresarial = () => {
     const galleryBody = () => {
@@ -15,7 +17,9 @@ const Empresarial = () => {
                 <br/>
                 <ImageGallery items={empresarial}/>
                 <br/>
-     
+                <div className='empresarialForm'>
+                    <Form/>
+                </div>
             </Fragment>
         )
     }
