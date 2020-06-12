@@ -1,3 +1,5 @@
+$red:#800000;
+
 
 .ContactMe{
     //max-width: 420px;// tamaño
@@ -40,7 +42,7 @@ input[type=text],input[type=email],input[type=number],input[type=date],select,te
 .form-button:hover{
     //transform: scale(1.1);
     //transition: transform;
-    background-color: #d79e5b;
+    background-color: $red;
 }
 
 .container{
