@@ -149,7 +149,8 @@ main .capital-letter {
     //margin-top: 80px;
     
     @media (max-width: 769px){ /* es solo para que se vea en modo movil usuarios*/
-       font-size:40px
+       font-size:40px;
+       margin-top:20px;
        
       }
 }
@@ -196,6 +197,7 @@ margin-right: 200px;
     @media (max-width: 769px){ /* es solo para que se vea en modo movil usuarios*/
         font-size:22px;
         margin-top: 30px;
+        margin-bottom:30px
        }
 }
 ////// xv anos
@@ -233,6 +235,7 @@ margin-right: 200px;
     margin-left: 200px;
     @media (max-width: 769px){ /* es solo para que se vea en modo movil usuarios*/
       margin-left: 0px;
+      margin-bottom: 30px;
             
            }
     
