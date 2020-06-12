@@ -8,6 +8,7 @@ $open:'Quicksand', sans-serif;
 $red:#800000;
 $grey: rgba(255,255,255,.5);
 $grey3:#606060;
+$golden: #d79e5b;
 
 *{
    // font-family: Montserrat;
@@ -91,6 +92,7 @@ z-index: 1;
 }
 
 
+
 .Carousel-content{
   width: 300px;
     // display: flex;
@@ -117,12 +119,14 @@ main .capital-letter {
 }
 
 
+////////////////////////////////////////////////////////////////
 
 .big-salon{
     display: flex;
     align-items: center;
     justify-content: center;
-    
+    background:$golden;
+   
     
  @media (max-width: 769px){ /* es solo para que se vea en modo movil usuarios*/
 
@@ -136,6 +140,154 @@ main .capital-letter {
     } 
 }
 
+//// bodas
+
+
+.titlesSection{
+    font-family:$titles;
+    font-size:50px;
+    //margin-top: 80px;
+    
+    @media (max-width: 769px){ /* es solo para que se vea en modo movil usuarios*/
+       font-size:40px
+       
+      }
+}
+
+
+.bodas{
+margin-right: 200px;
+@media (max-width: 769px){ /* es solo para que se vea en modo movil usuarios*/
+  margin-right: 0px;
+        
+       }
+
+}
+
+.bodas img{
+   align-self: center;
+  //  margin-left: 100px;
+    
+    @media (max-width: 769px){ /* es solo para que se vea en modo movil usuarios*/
+    width:370px ;
+  //  margin-left: 100px;
+    height: auto;
+    
+        
+       }
+}
+
+.bodasLetter{
+//margin-left:100px;
+@media (max-width: 769px){ /* es solo para que se vea en modo movil usuarios*/
+    margin-left:0px;
+
+    
+   }
+}
+
+
+.bodaD{
+    color:$grey3;
+    font-size: 30px;
+    font-family:$open;
+    //background-color: $golden;
+    justify-content: justify;
+    @media (max-width: 769px){ /* es solo para que se vea en modo movil usuarios*/
+        font-size:22px;
+        margin-top: 30px;
+       }
+}
+////// xv anos
+.quince{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background:#EEE0C2;
+    @media (max-width: 769px){ /* es solo para que se vea en modo movil usuarios*/
+
+        justify-content: center;
+         flex-direction: column;
+         align-items: center;
+        // justify-content: center;
+        // margin-left: 50px;
+         margin-bottom: 0px;
+        
+        } 
+}
+
+.quinceDescr{
+    color:$grey3;
+    font-size: 30px;
+    font-family:$open;
+    justify-content: justify;
+    margin-left: 10px;
+    @media (max-width: 769px){ /* es solo para que se vea en modo movil usuarios*/
+        font-size:22px;
+        margin-top: 30px;
+        margin-left: 0px;
+       }
+}
+
+.quince-img{
+    margin-left: 200px;
+    @media (max-width: 769px){ /* es solo para que se vea en modo movil usuarios*/
+      margin-left: 0px;
+            
+           }
+    
+    }
+    
+    .quince-img img{
+      // align-self: center;
+      //  margin-left: 100px;
+        width: 500px;
+        @media (max-width: 769px){ /* es solo para que se vea en modo movil usuarios*/
+        width:270px ;
+      //  margin-left: 100px;
+        height: auto;
+        
+            
+           }
+    }
+
+///Empresarial
+
+
+.titlesSectionE{
+    font-family:$titles;
+    font-size:40px;
+    //margin-top: 80px;
+    
+    @media (max-width: 769px){ /* es solo para que se vea en modo movil usuarios*/
+       font-size:35px
+       
+      }
+}
+
+.empresarial{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background:#718691;
+   
+    
+ @media (max-width: 769px){ /* es solo para que se vea en modo movil usuarios*/
+
+    justify-content: center;
+     flex-direction: column;
+     align-items: center;
+    // justify-content: center;
+    // margin-left: 50px;
+     margin-bottom: 0px;
+    
+    } 
+}
+
+
+
+
+////////////////////////
 
 .container-card{
     //width: 100%;

@@ -130,67 +130,99 @@ const homeBody = () => (
             </div>
             </section> */}
             <br/>
-  
-        <h2 className="title text-center">
+
+        <h2 className="title text-center mb-5">
               GRAN SALÓN
         </h2>
 
-    <div className="big-salon">
-          <div className="bodas">
-          <div className='container-card'>
-           <div className="card">
-              <img src='https://res.cloudinary.com/dm8dxwvix/image/upload/v1590704587/venecia/boda/Salon_Venecia_2018-11-10_93_m_jdqirb.jpg'  alt='boda'/>
-                      <h6 className="mb-1 mt-2">BODAS</h6>
-                      <div className="figure2"/>
-                       <p className="description-t mb-2" style={{fontSize:'16px'}}>Una boda perfecta se celebra en Salón Venecia, 
-                                                        en donde nos dedicaremos a que tu y tus invitados disfruten de una confortable y elegante noche cuidando cada detalle para hacerlos sentir especiales; 
-                                                        creando una noche inolvidable.</p>
-                       <Link to='/bodas' className="">Ver Más</Link>
-                    </div>
+            <div className="big-salon">
+                <div className="bodas">
+                    <img src='https://res.cloudinary.com/dm8dxwvix/image/upload/v1591967258/venecia/principal/fOTO_PRINCIPAL_NOVIO_CON_COPAS_eue5oc.jpg' className="" alt=''bodas/>          
                 </div>
-          
-          </div>
-          <div className="bodas">
-          <div className='container-card'>
-           <div className="card">
-              <img src='https://res.cloudinary.com/dm8dxwvix/image/upload/v1590704483/venecia/15%20anos/20190322_220432_cwha5l.jpg'  alt='quince'/>
-              <br/>
-                      <h6 className="mb-1 mt-2">XV AÑOS</h6>
-                      <div className="figure2"/>
-                       <p className="description-t mb-4" style={{fontSize:'16px'}}>No es un cumpleaños más, es un sueño hecho realidad, donde la princesa eres tú.
-                        </p>
-                      
-                       <Link to='/quince' className="">Ver Más</Link>
-                    </div>
-                </div>
-          
-          </div>
-          <div className="bodas">
-          <div className='container-card'>
-           <div className="card">
-              <img src='https://res.cloudinary.com/dm8dxwvix/image/upload/v1591372133/venecia/empresarial/20190803_181820_xucvcx.jpg'  alt='empresarial'/>
-                      <h6 className="mb-1 mt-2"style={{fontSize:'16px'}}>EMPRESARIAL</h6>
-                      <br/>
-                      <div className="figure2"/>
-                       <p className="description-t mb-2">Desde una fiesta informal hasta una cena de fin de año, te ofrecemos una gran variedad de opciones para sobrepasar tus expectativas.</p>
-                       <Link to='/empresarial' className="">Ver Más</Link>
-                    </div>
-                </div>
-          </div>
-    </div>
+                <div className="bodasLetter">
+                <h6 className="titlesSection text-center"> BODAS</h6>
+                <p className="bodaD text-center">
+                        {/* Una boda perfecta se celebra en Salón Venecia,<br/>
+                        en donde nos dedicaremos a que tu y tus invitados<br/>
+                disfruten de una confortable y elegante noche
+                cuidando<br/> cada detalle para hacerlos sentir
+                especiales; creando una noche inolvidable.</p> */}
+                
+                Una boda perfecta se celebra en Salón Venecia,
+                en donde nos dedicaremos a que tu y tus invitados
+                disfruten de una confortable y elegante noche
+                cuidando cada detalle para hacerlos sentir
+                especiales; creando una noche inolvidable.<br/>
+                <Link to='/bodas' className="text-center">Ver Más</Link>
+                
+                </p>    
+      </div>
+      </div>
+      
+      {/* /// 15 anos */}
 
-    <h2 className="title text-center"> JARDÍN </h2>
-    <div className='container-cardJ text-center'>
-           <div className="card">
-              <img src='https://res.cloudinary.com/dm8dxwvix/image/upload/v1590704671/venecia/IMG-20190622-WA0017_r5m6od.jpg'  alt='empresarial'/>
-                      <h6 className="mb-1 mt-2"style={{fontSize:'16px'}}>JARDÍN</h6>
-                      <br/>
-                      <div className="figure2"/>
-                       <p className="description-t mb-2">El jardín de Venecia es el lugar perfecto para realizar tu evento al aire libre, rodeado de tranquilidad y armonía.</p>
-                       <Link to='/jardin' className="">Ver Más</Link>
-                    </div>
+        <div className="quince">
+            
+            <div className="bodasLetter">
+            <h6 className="titlesSection text-center"> XV AÑOS</h6>
+            <p className="quinceDescr text-center">
+                   No es un cumpleaños más, es un sueño hecho realidad,
+                  donde la princesa eres tú.<br/>
+                    <Link to='/quince' style={{color: '#000'}} className="text-center">Ver Más</Link>  
+                    </p>    
+            </div>
+            <div className="quince-img">
+                    <img src='https://res.cloudinary.com/dm8dxwvix/image/upload/v1591967258/venecia/principal/FOTO_PRINCIPAL_XV_A%C3%91OS_hrdq8c.jpg' className="" alt=''bodas/>          
                 </div>
+            </div>
         
+       
+        {/* EMPRESARIAL */}
+
+            <div className="empresarial">
+                <div className="bodas">
+                    <img src='https://res.cloudinary.com/dm8dxwvix/image/upload/v1591967258/venecia/principal/FOTO_PRINCIPAL_EMPRESARIAL_wt7kt1.jpg' className="" alt=''bodas/>          
+                </div>
+                <div className="bodasLetter">
+                <h6 className="titlesSectionE text-center" >EMPRESARIAL</h6>
+                <p className="bodaD text-center" style={{color: '#000'}}>
+                Desde una fiesta informal hasta una cena de fin de año,
+                te ofrecemos una gran variedad de opciones
+                para sobrepasar tus expectativas.
+                   <br/>
+                <Link to='/empresarial' className="text-center">Ver Más</Link>
+                
+                </p>    
+      </div>
+      </div>
+
+      {/* //////////////////                 */}
+
+      {/* ///JARDIN     */}
+
+            
+        <div className="quince">
+          
+            <div className="bodasLetter">
+            <h6 className="titlesSection text-center"> JARDÍN </h6>
+            <p className="quinceDescr text-center">
+            El jardín de Venecia es el lugar perfecto para realizar tu evento al aire libre,
+            rodeado de tranquilidad y armonía.
+                 <br/>
+                    <Link to='/jardin' style={{color: '#000'}} className="text-center">Ver Más</Link>  
+                    </p>    
+            </div>
+            <div className="quince-img">
+                    <img src='https://res.cloudinary.com/dm8dxwvix/image/upload/v1590704671/venecia/IMG-20190622-WA0017_r5m6od.jpg'  alt='empresarial' className="" alt='JARDIN'/>          
+                </div>
+            </div>
+
+
+
+
+{/* ///////////////////////// */}
+    
+
 
     <h3 className="title text-center"> UBICACIÓN </h3>
     <br/>

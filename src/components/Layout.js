@@ -29,9 +29,10 @@ import {
     return (
         <div>
              <Navbar light expand="md" style={{backgroundColor: "#f2f2f2", opacity:'0.9',zIndex:'300'}} className='fixed-top'>
-                <Link href="/">
-                <img alt='logo' width='60px' height='70px' src={Logo}/>
+                <Link to='/'>
+                   <img alt='logo' width='60px' height='70px' src={Logo}/>
                 </Link>
+                    <p className='ml-3 mt-3' style={{color:'#800000', fontSize:'20px', fontFamily:'Lexend Tera',fontWeight:'1000'}}>Salón Venecia</p>
                 <NavbarToggler onClick={toggle} />
                 <Collapse isOpen={isOpen} navbar>
                   <Nav className="ml-auto" navbar>
@@ -40,33 +41,33 @@ import {
               <Fragment>            
                         <NavItem style={{cursor:'pointer'}}>
                           <Link to='/'>
-                            <NavLink>HOME</NavLink>
+                            <NavLink style={{fontWeight:'600', color:'#2d2d26' }}>HOME</NavLink>
                           </Link>
                         </NavItem>
                         <NavItem  style={{cursor:'pointer'}}>
                             <Link to="/bodas">
-                              <NavLink>
+                              <NavLink style={{fontWeight:'600', color:'#2d2d26' }}>
                               BODAS
                               </NavLink>
                             </Link>
                         </NavItem>  
                        <NavItem  style={{cursor:'pointer'}}>
                          <Link to="/quince">
-                           <NavLink>
+                           <NavLink style={{fontWeight:'600', color:'#2d2d26' }}>
                            XV AÑOS
                            </NavLink>
                          </Link>
                      </NavItem>
                      <NavItem  style={{cursor:'pointer'}}>
                         <Link to="/jardin">
-                          <NavLink>
+                          <NavLink style={{fontWeight:'600', color:'#2d2d26' }}>
                            JARDIN
                           </NavLink>
                         </Link>
                     </NavItem> 
                     <NavItem  style={{cursor:'pointer'}}>
                         <Link to="/empresarial">
-                          <NavLink>
+                          <NavLink style={{fontWeight:'600', color:'#2d2d26' }}>
                            EMPRESARIAL
                           </NavLink>
                         </Link>
