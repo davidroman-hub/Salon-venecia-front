@@ -223,17 +223,20 @@ const homeBody = () => (
 {/* ///////////////////////// */}
     
 
+<div className="mapBack">
 
     <h3 className="title text-center"> UBICACIÓN </h3>
     <br/>
     <br/>
          <div className="Map-ps">
-                             <Map/>
+                 <Map/>
           </div>                  
     <br/>  
     <br/>
-<Formulario/>
-
+</div>
+<div className="form-color">
+    <Formulario/>
+</div>
 {/* {bookingForm()} */}
 
      
