@@ -6,6 +6,7 @@ import Quince from './pages/15anos'
 import Boda from './pages/Boda'
 import Empresarial from './pages/empresarial'
 import Jardin from './pages/Jardin'
+import ScrollToTop from './ScrollTop'
 // import Pages
 
 
@@ -20,6 +21,7 @@ const App = () => {
   return (
     <BrowserRouter>
       <Fragment>
+        <ScrollToTop>
         <AdminRoute exact path="/admin/dashboard" component={Dashboard}/>
         <AdminRoute exact path="/admin/dates-list" component={DatesList}/>
         <AdminRoute exact path="/admin/dates-remove" component={ManageDate}/>
@@ -30,6 +32,7 @@ const App = () => {
         <Route exact path="/bodas" component={Boda}/> 
         <Route exact path="/empresarial" component={Empresarial}/> 
         <Route exact path="/jardin" component={Jardin}/> 
+      </ScrollToTop>
       </Fragment>
     </BrowserRouter>
    
