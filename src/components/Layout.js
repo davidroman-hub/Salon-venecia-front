@@ -32,7 +32,7 @@ import {
                 <Link to='/'>
                    <img alt='logo' width='60px' height='70px' src={Logo}/>
                 </Link>
-                    <p className='ml-2 mt-3' style={{color:'#800000', fontSize:'20px', fontFamily:'Lexend Tera',fontWeight:'1000'}}>Salón Venecia</p>
+                    <p className='ml-1 mt-3' style={{color:'#800000', fontSize:'20px', fontFamily:'Lexend Tera',fontWeight:'1000'}}>Salón Venecia</p>
                 <NavbarToggler onClick={toggle} />
                 <Collapse isOpen={isOpen} navbar>
                   <Nav className="ml-auto" navbar>
