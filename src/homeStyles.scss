@@ -146,12 +146,13 @@ main .capital-letter {
 .titlesSection{
     font-family:$titles;
     font-size:50px;
+    margin-right: 50px;
     //margin-top: 80px;
     
     @media (max-width: 769px){ /* es solo para que se vea en modo movil usuarios*/
        font-size:40px;
        margin-top:20px;
-       
+       margin-right: 0px;
       }
 }
 
@@ -192,12 +193,15 @@ margin-right: 200px;
     color:$grey3;
     font-size: 30px;
     font-family:$open;
+    margin-right: 50px;
     //background-color: $golden;
     justify-content: justify;
     @media (max-width: 769px){ /* es solo para que se vea en modo movil usuarios*/
         font-size:22px;
         margin-top: 30px;
-        margin-bottom:30px
+        margin-bottom:30px;
+        margin-right: 10px;
+        margin-left:10px
        }
 }
 ////// xv anos

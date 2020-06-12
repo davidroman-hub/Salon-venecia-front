@@ -84,7 +84,7 @@ const homeBody = () => (
                         {/* <h1 className="title text-center">
                              Salón Venecia
                         </h1> */}
-                        <br/>
+                       
                         <br/>
                         <div className="About-container">
                        
@@ -99,11 +99,7 @@ const homeBody = () => (
                       </section>
                 </main>  
                     <br/>
-                    <br/>
-                    <br>
-                    </br>
-                    <br/>
-                    <hr/>
+                   
                     <JardinCarousel/>
             {/* <section className="Carousel-cont">
             <div className="Carousel text-center" id="carouselExampleControls" class="carousel slide" data-ride="carousel">
