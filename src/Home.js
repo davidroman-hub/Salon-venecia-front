@@ -225,7 +225,7 @@ const homeBody = () => (
 
 <div className="mapBack">
 
-    <h3 className="title text-center"> UBICACIÓN </h3>
+    <h3 className="titleUbic text-center"> UBICACIÓN </h3>
     <br/>
     <br/>
          <div className="Map-ps">
