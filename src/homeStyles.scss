@@ -92,6 +92,10 @@ z-index: 1;
 }
 
 
+.carousel-back{
+    background-color:#EEE0C2
+}
+
 
 .Carousel-content{
   width: 300px;
@@ -111,10 +115,10 @@ main .capital-letter {
 
 .history{
     color:$grey3;
-    font-size: 35px;
+    font-size: 30px;
     font-family:$open;
     @media (max-width: 769px){ /* es solo para que se vea en modo movil usuarios*/
-        font-size:24px
+        font-size:22px
        }
 }
 
@@ -267,8 +271,8 @@ margin-right: 200px;
     //margin-top: 80px;
     
     @media (max-width: 769px){ /* es solo para que se vea en modo movil usuarios*/
-       font-size:35px
-       
+       font-size:35px;
+       margin-top: 25px;
       }
 }
 
@@ -291,6 +295,22 @@ margin-right: 200px;
     } 
 }
 
+
+.empresarialD{
+    color:$grey3;
+    font-size: 30px;
+    font-family:$open;
+    margin-right: 50px;
+    //background-color: $golden;
+    justify-content: justify;
+    @media (max-width: 769px){ /* es solo para que se vea en modo movil usuarios*/
+        font-size:22px;
+        margin-top: 30px;
+        margin-bottom:30px;
+        margin-right: 10px;
+        margin-left:10px
+       }
+}
 ////// MAP
 .mapBack{
    // background-color: #5f5f5f;

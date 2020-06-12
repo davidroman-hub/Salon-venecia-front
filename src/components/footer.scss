@@ -26,21 +26,35 @@ a{
     color: white;
     margin-left: 200px;
     margin-right: 200px;
+    font-size:18px;
     @media (max-width: 769px){ /* es solo para que se vea en modo movil usuarios*/
         margin-left: -39px;
         margin-right: 0px;
         margin-bottom: 10px;
+        font-size: 15px;
      
         
            }
 }
 .address-2{
     color: white;
+    font-size:18px;
     @media (max-width: 769px){ /* es solo para que se vea en modo movil usuarios*/
         margin-left: 0px;
         margin-right: 0px;
         margin-bottom: 10px;
-     
-        
+        font-size:15px;
+        margin-top:20px;
            }
+        }
+
+.aviso{
+    font-size: 18px;
+    margin-bottom:2px;
+
+    @media (max-width: 769px){ /* es solo para que se vea en modo movil usuarios*/
+    font-size: 15px;
+    margin-bottom:10px;
+           }
+
 }

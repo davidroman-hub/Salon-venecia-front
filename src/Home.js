@@ -99,32 +99,10 @@ const homeBody = () => (
                       </section>
                 </main>  
                     <br/>
-                   
-                    <JardinCarousel/>
-            {/* <section className="Carousel-cont">
-            <div className="Carousel text-center" id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-                <div class="carousel-inner">
-                <div class="carousel-item text-center active">
-                
-                    <img width="500px" src='https://res.cloudinary.com/dm8dxwvix/image/upload/v1590704595/venecia/boda/20190813_211416_-_copia_jffims.jpg'  alt="firts"/>
-                </div>
-                <div class="carousel-item text-center">
-                    <img width="500px" src='https://res.cloudinary.com/dm8dxwvix/image/upload/v1590704595/venecia/boda/20190813_211416_-_copia_jffims.jpg'  alt="second"/>
-                </div>
-                <div class="carousel-item text-center">
-                    <img width="500px" src='https://res.cloudinary.com/dm8dxwvix/image/upload/v1590704595/venecia/boda/20190813_211416_-_copia_jffims.jpg'  alt="third"/>
-                </div>
-                </div>
-                <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
-                </a>
-                <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
-                </a>
-            </div>
-            </section> */}
+                   <div className="carousel-back mb-2">
+                     <JardinCarousel/>
+                   </div>
+                  
             <br/>
 
         <h2 className="title text-center mb-5">
@@ -138,12 +116,7 @@ const homeBody = () => (
                 <div className="bodasLetter">
                 <h6 className="titlesSection text-center"> BODAS</h6>
                 <p className="bodaD text-center">
-                        {/* Una boda perfecta se celebra en Salón Venecia,<br/>
-                        en donde nos dedicaremos a que tu y tus invitados<br/>
-                disfruten de una confortable y elegante noche
-                cuidando<br/> cada detalle para hacerlos sentir
-                especiales; creando una noche inolvidable.</p> */}
-                
+                    
                 Una boda perfecta se celebra en Salón Venecia,
                 en donde nos dedicaremos a que tu y tus invitados
                 disfruten de una confortable y elegante noche
@@ -181,7 +154,7 @@ const homeBody = () => (
                 </div>
                 <div className="bodasLetter">
                 <h6 className="titlesSectionE text-center" >EMPRESARIAL</h6>
-                <p className="bodaD text-center" style={{color: '#000'}}>
+                <p className="empresarialD text-center" style={{color: '#000'}}>
                 Desde una fiesta informal hasta una cena de fin de año,
                 te ofrecemos una gran variedad de opciones
                 para sobrepasar tus expectativas.

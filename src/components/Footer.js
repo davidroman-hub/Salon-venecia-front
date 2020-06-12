@@ -19,9 +19,9 @@ const Footer = () => {
         <div className='address'>
             Telefono: <a href='tel:+5215527271330' >(55) 27271330</a><br/>
                                               
-                    <a href='tel:+5215527271330' >(55) 27271330</a>
+                    <a href='tel:+52156750525' >(55) 56750525</a>
         </div>
-        <div>
+        <div className='aviso'>
            <Link to='/aviso-privacidad' className='mr-5' >Aviso de privacidad</Link>
         </div>
     </div> 
