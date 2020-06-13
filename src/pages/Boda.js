@@ -24,9 +24,12 @@ const Boda = () => {
                 <br/>
                 <br/>
              
-
-                <ImageGallery items={bodas}/>
+                <div className='bodaBackground'>
+                     <ImageGallery items={bodas}/>
+                </div>
+               
                 <br/>
+                
                 <div className='bodaForm'>
                   <Form/>
                 </div>

@@ -82,14 +82,7 @@ z-index: 1;
       }
 }
 
-.title2{
-    font-family:$titles;
-    font-size:60px;
-    margin-top: 160px;
-    @media (max-width: 769px){ /* es solo para que se vea en modo movil usuarios*/
-       font-size:45px
-      }
-}
+
 
 
 .carousel-back{
@@ -533,4 +526,26 @@ height: 50vh;
         font-size:24px;
         margin-top: 70px;
        }
+}
+
+
+
+/// section pages
+
+.title2{
+    font-family:$titles;
+    font-size:80px;
+    margin-top: 160px;
+    @media (max-width: 769px){ /* es solo para que se vea en modo movil usuarios*/
+       font-size:45px
+      }
+}
+
+.title3{
+    font-family:$titles;
+    font-size:80px;
+    margin-top: 160px;
+    @media (max-width: 769px){ /* es solo para que se vea en modo movil usuarios*/
+       font-size:35px
+      }
 }

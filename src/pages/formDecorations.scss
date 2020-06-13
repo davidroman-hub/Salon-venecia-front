@@ -1,3 +1,12 @@
+//colors
+
+$red:#800000;
+$grey: rgba(255,255,255,.5);
+$grey3:#606060;
+$golden: #d79e5b;
+
+
+
 
 .bodaForm{
     background-color: #847357;
@@ -5,12 +14,18 @@
     margin-left:25%;
     border-radius:10px;
     opacity: 0.8;
+    margin-bottom:20px;
     @media(max-width: 769px){
         width: 100%;
        margin-left:0%;
     }
 }
 
+.bodaBackground{
+    background-color: $golden
+}
+
+//////////////////////////////////////////
 
 .xvForm{
     background-color: #fd8690;
@@ -19,13 +34,14 @@
     margin-left:25%;
     border-radius:10px;
     opacity: 0.8;
+    margin-bottom:20px;
     @media(max-width: 769px){
         width: 100%;
        margin-left:0%;
     }
 }
 
-
+/////////////////////////////////////////
 
 .jardinForm{
     background-color: #c9eec9;
@@ -34,12 +50,18 @@
     margin-left:25%;
     border-radius:10px;
     opacity: 0.8;
+    margin-bottom:20px;
     @media(max-width: 769px){
         width: 100%;
        margin-left:0%;
     }
 }
 
+.backgroundJardin{
+    background-color: #eee0c2
+}
+
+///////////////////////////////////////
 
 .empresarialForm{
     background-color: #4d6876;
@@ -49,9 +71,11 @@
    width: 50%;
     margin-left:25%;
     border-radius:10px;
+    margin-bottom:20px;
     @media(max-width: 769px){
         width: 100%;
        margin-left:0%;
     }
 }
 //#c9eec
+

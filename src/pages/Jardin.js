@@ -3,6 +3,7 @@ import Header from '../components/header'
 import {jardin} from '../images'
 import ImageGallery from 'react-image-gallery'
 import Form from '../form'
+import '../homeStyles.scss'
 
 
 
@@ -23,7 +24,9 @@ const Jardin = () => {
                 {/* <div className='titles-descGallery text-center'> GALERIA</div> */}
                 <br/>
                 <br/>
-                <ImageGallery items={jardin}/>
+                <div className='backgroundJardin'>
+                    <ImageGallery items={jardin}/>
+                </div>
                 <br/>
                 <div className='jardinForm'>
                     <Form/>
