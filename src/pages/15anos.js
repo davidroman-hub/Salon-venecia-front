@@ -20,7 +20,10 @@ const Quince = () => {
                 {/* <div className='titles-descGallery text-center'> GALERIA</div> */}
                 <br/>
                 <br/>
-                <ImageGallery items={imagesXV}/>
+                <div className='quinceBack'>
+                    <ImageGallery items={imagesXV}/>
+                </div>
+             
                 <br/>
                 <div className='xvForm'>
                     <Form/>

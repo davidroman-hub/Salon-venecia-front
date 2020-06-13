@@ -23,7 +23,10 @@ const Empresarial = () => {
                
                 <br/>
                 <br/>
-                <ImageGallery items={empresarial}/>
+                <div className='empreBack'>
+                     <ImageGallery items={empresarial}/>
+                </div>
+                
                 <br/>
                 <div className='empresarialForm'>
                     <Form/>
