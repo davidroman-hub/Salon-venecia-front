@@ -6,6 +6,8 @@
     background-color: #707070;
     font-size:15px;
     font-family:'Quicksand', sans-serif;
+    padding-top: 30px;
+    padding-bottom: 30px;
     
     @media (max-width: 769px){ /* es solo para que se vea en modo movil usuarios*/
    flex-direction: column;
