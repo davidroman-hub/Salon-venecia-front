@@ -7,6 +7,7 @@ import {signin, authenticate, isAuth} from '../components/helpers'
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.min.css';
 import axios from 'axios'
+import './adminStyles.scss';
 //import './Signin.scss'
 
 
@@ -57,7 +58,7 @@ const Signin = ({history}) => {
     };
 
     const signinForm = () => (
-        <form>
+        <form className='signinFormS'>
 
             <div className="form-group" id="header-content" >
                 <label className="text-muted">E-mail</label>
@@ -84,15 +85,15 @@ const Signin = ({history}) => {
             <div className="col-md-6 offset-md-3">
                 <ToastContainer />
                 {isAuth() ? <Redirect to='/'/> : null}
-                <h1 className="p-5 text-center">Inicia Sesión</h1>
+                <h1 className="titles-456 p-5 text-center">Inicia Sesión</h1>
             
                 {/* <Facebook informParent={informParent}/> */}
                 {signinForm()}
                 <hr/>
-                <div>
+                {/* <div>
                      <Link className='text-muted' to='/auth/password/forgot' >Olvidaste tu contraseña?</Link><br/>
                      <Link className='text-muted' to='/aviso-privacidad' >Al registrarte aceptas el aviso de PRIVACIDAD</Link>
-                </div>
+                </div> */}
             </div>
         </Header>
     );

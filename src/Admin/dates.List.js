@@ -66,6 +66,9 @@ const DatesList = () => {
         )
     }
 
+    const divisor = () => (
+        <div className="titles-456"/>
+    )
     
 
     return (
@@ -73,6 +76,7 @@ const DatesList = () => {
        
              <br/>
               {/* {JSON.stringify(dates)} */}
+              {divisor()}
               {showAppointmentsLength()}
               {showDatesList()}
         </Header>    

@@ -38,10 +38,13 @@ const ManageDates = () => {
         loadDates()
     },[])
 
-
+    const divisor = () => (
+        <div className="titles-456"/>
+    )
 
     return (
         <Header>
+            {divisor()}
              <div className="row">
             <div className="col-12">
             <h1>Manejo de citas</h1>

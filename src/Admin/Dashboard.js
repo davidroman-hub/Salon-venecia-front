@@ -8,7 +8,7 @@ const Dashboard = () => {
     const  dashboardBody = () => {
         return (
         <Fragment>
-          <div className="container">  
+          <div className="titles-456 container">  
             <div className=' card mb-5' id="header-content" >
             <h3 className='card-header'>Tablero de Administrador</h3>
             <ul className='list-group'>

@@ -115,7 +115,7 @@ const homeBody = () => (
                 </div>
                 <div className="bodasLetter">
                 <h6 className="titlesSection text-center"> BODAS</h6>
-                <p className="bodaD text-center">
+                <p className="bodaD text-center" style={{color: '#000'}}>
                     
                 Una boda perfecta se celebra en Salón Venecia,
                 en donde nos dedicaremos a que tu y tus invitados
