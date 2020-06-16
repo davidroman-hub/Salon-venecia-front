@@ -13,8 +13,8 @@ import './adminStyles.scss';
 
 const Signin = ({history}) => {
     const [values, setValues] = useState({
-        email: 'Venecia@admin.com',
-        password: 'Venecia7373',
+        email: '',
+        password: '',
         buttonText: 'Enviar'
     });
 
